@@ -17,7 +17,9 @@
 .topbar-icon {
     color: orangered;
 }
-
+.menu-button{
+    display: none;
+}
 .topbar-main {
     /* border: 2px solid red; */
     width: 100%;
@@ -78,12 +80,12 @@
 }
 
 .topbar-icon-main {
-    width: 10%;
+    width: 74%;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 14px;
-    color: orangered;
+    color: orangered
 }
 
 .topbar-icon-main-2 {
@@ -173,7 +175,7 @@
 }
 
 .topbar-icon-main {
-    width: 100%;
+    width: 74   %;
 }
 
 .main-content {
@@ -296,7 +298,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 
@@ -363,9 +365,11 @@
 }
 
 .third-bottom {
-    display: flex;
-    justify-content: space-between;
-}
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
 
 .fourth-page {
     width: 100%;
@@ -1146,5 +1150,206 @@ label {
 }
     }
     @media (max-width: 361px) {
+          .topbar-right {
+        margin-left: 0%;
+    }
+    .left-navbar{
+        display: none;
+    }
+    .button-class{
+        display: none;
+    }
+     .menu-button{
+        display: block;
+     }
+         .topbar-right i {
+       font-size: 15px;
+        padding: 5px 7px;
+    }
+    .topbar-left-content {
+    margin-top: 19px;
+    gap: 0px;
+}
+.containt-image {
+    width: 100%;
+    position: relative;
+}
+containt {
+    width: 100%;
+}
+.second-containt {
+    flex-wrap: wrap;
+}
+.second-main-containt {
+    width: 100%;
+}
+.second-main2-containt {
+    width: 100%;
+}
+.second-image img {
+    margin-top: 667px;
+}
+.second-main-containt {
+    margin-top: 45px;
+}
+
+.content-sec h2 {
+    font-size: 35px;
+}
+    .thrid-page-bottom {
+        margin-top: 67px;
+    }
+    .top-containt {
+    flex-wrap: wrap;
+}
+.top-left {
+    text-align: center;
+    width: 100%;
+}
+    .fourth-button li {
+        font-size: 12px;
+    }
+        .fourth-button {
+        gap: 62px;
 
     }
+    .top-right {
+    margin-top: 23px;
+}
+.fifth-main-box-1 {
+    margin-top: 45%;
+}
+    .fifth-main-box-1 h2 {
+        font-size: 32px;
+    }
+    .fifth-first-box {
+        width: 100%;
+    }
+        .right-map {
+        width: 100%;
+    }
+    .left-map {
+        flex-wrap: wrap;
+    }
+        .left-map-iframe {
+        width: 100%;
+    }
+        .container {
+        width: 100%;
+    }
+        .thrid-second-main p {
+        font-size: 9px;
+    }
+        .content h2 {
+        font-size: 23px;
+    }
+        .content p {
+        width: 99px;
+        font-size: 11px;
+    }
+        .fourth-button {
+        gap: 58px;
+        margin-left: 20px;
+    }
+    
+    .third-bottom {
+    gap: 0px;
+    }
+        .sixth-image h2 {
+        font-size: 24px;
+    }
+    .fourth-button p {
+    font-size: 11px;
+}
+.fourth-first-back {
+    width: 69%;
+    margin-left: 55px;
+}
+    .fourth-second img {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .fourth-3 {
+        width: 80%;
+        margin-left: 40px;
+    }
+        .fifth-first-box {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .sixth-image h2 {
+    font-size: 31px;
+}
+    .left-map-iframe iframe {
+        width: 80%;
+        margin-left: 40px;
+    }
+        .box-main {
+        width: 80%;
+        margin-left: 40px;
+    }
+        .right-map {
+        width: 80%;
+        margin-left: 40px;
+    }
+        .third-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fourth-button li {
+        font-size: 9px;
+    }
+        .containt-image {
+        width: 50%;
+        position: relative;
+    }
+        .containt-image img {
+        margin-left: 80px;
+        width: 100%;
+    }
+    .second-image {
+    position: absolute;
+    bottom: 72%;
+    left: -29px;
+    z-index: 2;
+    display: flex
+;
+    align-items: center;
+    top: -95%;
+}
+    .second-main-containt h2 {
+        font-size: 22px;
+        width: 51%;
+    }
+        .second-main-containt {
+        width: 69%;
+        margin-left: 53px;
+    }
+        .second-main3-containt {
+        padding: 10px;
+        margin: 17%;
+    }
+    .content-sec h6 {
+    text-align: center;
+    padding-top: 34px;
+
+    font-size: 14px;
+}
+    .thrid-page-containt {
+    display: flex;
+    gap: 20px;
+    background-color: rgba(217, 217, 217, 0.273);
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+    .third-bottom {
+        display: flex
+
+    }
+   .topbar-main{
+    display: none;
+   }
+}
+    
